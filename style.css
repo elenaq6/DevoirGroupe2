@@ -1,2 +1,41 @@
-.btn{
-  background-color: brown;}
+<!-- Styles personnalisés -->
+<style>
+    /* Fond de la page et texte principal */
+    header {
+        background-color: #000000; /* Fond noir */
+        color: white; /* Texte blanc */
+    }
+
+    /* Couleur de la barre de navigation */
+    .navbar {
+        background-color: #222222; /* Gris très foncé pour la navbar */
+    }
+
+    .navbar-brand, .nav-link {
+        color: white !important; /* Texte de la navbar en blanc */
+    }
+
+    .nav-link:hover {
+        color: #FF6F7B !important; /* Changer la couleur des liens au survol */
+    }
+
+    /* Style du bouton personnalisé */
+    .btn-custom {
+        background-color: #FF6F7B; /* Couleur rose */
+        border-color: #FF6F7B;     /* Bordure rose */
+        color: rgb(13, 6, 6);              /* Texte blanc */
+    }
+
+    .btn-custom:hover {
+        background-color: #e64d63; /* Couleur plus foncée au survol */
+        border-color: #e64d63;
+    }
+
+    /* Style de l'input de recherche */
+    .form-control {
+        background-color: #333333; /* Fond sombre pour l'input */
+        color: white;              /* Texte blanc dans l'input */
+        border: 1px solid #555555; /* Bordure grise */
+    }
+
+    .form-control:
